@@ -4,7 +4,7 @@
 
 Attempt
 
-{% for menu-item in site.data.menus.sidebar %}
+{% for link in site.data.menus.header %}
 <ul>
    <li>{{ menu-item.title}}</li>
 </ul>
